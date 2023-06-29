@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="225dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/_2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/btnMenu4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#D37A57"
+        android:text="Меню"
+        android:textColor="#4A5681"
+        android:textSize="10sp"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/fill_1"
+        app:iconGravity="top"
+        app:iconPadding="2dp"
+        app:iconSize="35dp"
+        app:iconTint="#4A5681"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Калории"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="148dp"
+        android:layout_height="52dp"
+        android:text="60 кг"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="751dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вес"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="599dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="134dp"
+        android:layout_height="202dp"
+        app:srcCompat="@drawable/rectangle_14"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_15"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="194dp"
+        android:layout_height="52dp"
+        android:text="Каждый день"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="196dp"
+        android:layout_height="73dp"
+        android:text="Регулярность занятий"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_13"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="148dp"
+        android:layout_height="52dp"
+        android:text="-150"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
